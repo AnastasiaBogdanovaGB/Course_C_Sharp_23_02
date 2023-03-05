@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+void NumRendom()
+{
+    int num = numRandom().Next(100, 1000);
+    Console.WriteLine($"{num} {num / 100}{num % 10}");
+}
+
